@@ -31,6 +31,6 @@ public class MyApplication {
         System.out.println(user1 == user);
         User user03 = run.getBean("user01", User.class);
         pet user04 = run.getBean("pet01", pet.class);
-        System.out.println(user03.getPet() == user04);
+        //System.out.println(user03.getPet() == user04);
     }
 }
